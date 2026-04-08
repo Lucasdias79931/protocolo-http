@@ -14,4 +14,14 @@ Este projeto tem como objetivo analisar requisições HTTP utilizando o **FastAP
 
 ---
 
-##  Estrutura do projeto
+
+---
+
+##  Como executar o projeto
+
+###  Usando Docker Compose
+
+```bash
+    $ docker-compose up --build -d
+
+```
