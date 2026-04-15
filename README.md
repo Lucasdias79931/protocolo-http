@@ -6,11 +6,7 @@ Este projeto tem como objetivo analisar requisições HTTP utilizando o **FastAP
 
 ##  Tecnologias utilizadas
 
-- Python
-- FastAPI
-- Docker
-- Docker Compose
-- React (frontend simples para demonstração)
+- Flask
 
 ---
 
@@ -22,6 +18,13 @@ Este projeto tem como objetivo analisar requisições HTTP utilizando o **FastAP
 ###  Usando Docker Compose
 
 ```bash
-    $ docker-compose up --build -d
+    $ docker compose up --build -d
+
+```
+
+## como executar sem docker
+
+```bash
+    $ gunicorn --workers=4 src.app:application
 
 ```
