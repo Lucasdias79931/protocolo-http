@@ -18,7 +18,7 @@ Este projeto tem como objetivo analisar requisições HTTP utilizando o **FastAP
 ###  Usando Docker Compose
 
 ```bash
-    $ docker compose up --build -d
+    $ docker compose up --build 
 
 ```
 
